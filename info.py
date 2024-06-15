@@ -20,13 +20,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '23171051'))
 API_HASH = environ.get('API_HASH', '10331d5d712364f57ffdd23417f4513c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7398590079:AAH1Yai7B7AoOMsEB8HrQ9kkSiQYHs6aGAY")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7412383356:AAGTP77-zCIwxc7gNpQGk7r8-Z831KbCa1I")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
+PICS = (environ.get('PICS', 'https://telegra.ph//file/7e55fd9a07469e1c46026.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph//file/7e55fd9a07469e1c46026.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph//file/7e55fd9a07469e1c46026.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
